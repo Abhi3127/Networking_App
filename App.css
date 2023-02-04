@@ -1,0 +1,102 @@
+.main{
+  text-align: center;
+  justify-content: center;
+  display:flex;
+  padding: 90px 0 90px 0;
+  background-color: skyblue;
+}
+.sub-main{
+  display: flex;
+  justify-content: center;
+  height:  550px;
+  width: 35%;
+  box-shadow: 11px 12 px 13px 12px rgb(207, 207, 207);
+  padding: top 30px;
+  border-radius: 60px;
+  background-color: white;
+}
+.imgs{
+  padding-top: 20px;
+  justify-content: center;
+  display: flex;
+}
+.container image{
+  background-color: rgb(223, 221, 221);
+  border-radius: 150px;
+  align-items: center;
+  display: flex;
+  height: 115px;
+  width:  115px;
+}
+
+.profile {
+  height: 100px;
+  width: 100px;
+  border-radius: 130px ;
+}
+.input{
+  width: 300px;
+  height: 50px;
+  border-radius: 60px;
+  box-shadow: inset 0px 0px 25px 0px skyblue;
+  border: none;
+  outline:  none;
+  background-color: #fff;
+
+}
+.email{
+  height: 30px;
+  width: 25px;
+  position: absolute ;
+  padding: 14px 0 0 25px;
+}
+.name{
+  padding-left: 70px;
+  font-size: 20px;
+}
+.second-input{
+  padding-top: 20px;
+}
+button{
+  width: 280px;
+  height: 50px;
+  border-radius: 60px;
+  background-color: whitesmoke;
+  font-size: 25f;
+  border: none;
+}
+.login-button{
+  padding-top: 25px;
+}
+
+.link{
+  font-size: 15px;
+  font-weight: 400;
+}
+a{
+  color: blue;
+}
+@media screen and (max-width:900px){
+  .login-button{
+    display: flex;
+    flex-direction: column;
+  }
+}
+.hide {
+  position:absolute;
+  transform: scale(0);
+     
+  ;}
+.login-popup {
+  position: absolute;
+  height: 30em;
+  width: 30em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:  center;
+ border-radius: 0.25em;
+
+
+}
+
